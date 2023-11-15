@@ -188,13 +188,11 @@ class BIC(common.Base):
             if len(candidates) > 1:
                 # If we have multiple candidates, we try to pick the
                 # one with XXX as branch code which is the most generic one.
-                generic_codes = sorted(
-                    [c for c in candidates if c.branch_code == "XXX" or not c.branch_code],
-                    key=len,
-                    reverse=True,
-                )
+                generic_codes = [
+                    c for c in candidates if c.branch_code == "XXX" or not c.branch_code
+                ]
                 if generic_codes:
-                    return generic_codes[0]
+                    return generic_codes[-1]
             return candidates[0]
         except KeyError as e:
             raise exceptions.InvalidBankCode(
