@@ -2428,7 +2428,7 @@
         "bic": "SNNNFR22",
         "bank_code": "17418",
         "name": "SHINE",
-      "short_name": "SHINE",
+        "short_name": "SHINE",
     },
     {
         "country_code": "FR",
@@ -2436,6 +2436,13 @@
         "bank_code": "17598",
         "name": "LYDIA SOLUTIONS",
         "short_name": "LYDIA",
+    },
+    {
+        "country_code": "FR",
+        "bic": "FEFIFR21XXX",
+        "bank_code": "15900",
+        "name": "FEDERAL FINANCE",
+        "short_name": "ARKEA BP BREST",
         "primary": true
     }
 ]
