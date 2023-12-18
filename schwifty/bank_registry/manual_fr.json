@@ -2428,7 +2428,14 @@
         "bic": "SNNNFR22",
         "bank_code": "17418",
         "name": "SHINE",
-        "short_name": "SHINE",
+      "short_name": "SHINE",
+    },
+    {
+        "country_code": "FR",
+        "bic": "LYDIFRP2",
+        "bank_code": "17598",
+        "name": "LYDIA SOLUTIONS",
+        "short_name": "LYDIA",
         "primary": true
     }
 ]
